@@ -38,8 +38,7 @@ $(function () {
         $('.overlay').fadeOut();
     });
     $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').addClass('active');
-        $('#sidebar').scrollTop(0);
+        $('#sidebar').addClass('active').scrollTop(0);
         $('.overlay').fadeIn();
     });
     
